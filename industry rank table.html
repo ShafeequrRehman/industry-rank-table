@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #1d1d25;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border-radius: 3px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            /* Add Background Image */
+            background-image: url('https://raw.githubusercontent.com/ShafeequrRehman/tableimage/f3fad32cbe8c0d2192d6393dbcd31ed4bfc02b9b/Group%20211.svg');
+            background-size: cover; /* Cover the entire table */
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            font-size: 0.8rem;
+            border-radius: 3px;
+            border: 1px solid #70707081;
+            background-color:#1d1d2520; /* Adding transparency to cells for visibility */
+           
+        }
+
+        th {
+            background-color: #333;
+        }
+
+        tr:nth-child(even) {
+            background-color: #1d1d25;
+                         }
+
+        .bar-container {
+            width: 100%;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            border-radius: 3px;
+
+        }
+
+        .bar-value {
+            height: 30px;
+            border-radius: 3px;
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Industry</th>
+                <th>Rank (change)</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                <td>Manufacturing</td>
+                <td>
+                    <div class="bar-container">
+                        <span style="padding-right: 5px;">1</span>
+                        <img src="https://raw.githubusercontent.com/ShafeequrRehman/double-arrow/b85d71120895fa1bd33f7182a591f470c6ad4ee8/Vector%20(4).svg" style="height: 25px;width: 25px;">
+
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Professional, Scientific, and Technical Services</td>
+                <td>
+                    <div class="bar-container">
+                        <span style="padding-right: 5px;">2</span>
+                        <img src="https://raw.githubusercontent.com/ShafeequrRehman/double-arrow/b85d71120895fa1bd33f7182a591f470c6ad4ee8/Vector%20(4).svg" style="height: 25px;width: 25px;" >
+
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Health Care and Social Assistance</td>
+                <td>
+                    <div class="bar-container">
+                        <span style="padding-right: 5px;">3</span>
+                        <img src="https://raw.githubusercontent.com/ShafeequrRehman/arrowup/f9e79ecf5d72afd1ac4c1bac631b5304fbfc4e74/Vector%20(5).svg"style="height: 15px;width: 15px;">
+                        <span style="padding-left: 5px;">+2</span>
+
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Finance and insurance</td>
+                <td>
+                    <div class="bar-container">
+                        <span style="padding-right: 5px;">4</span>
+                        <img src="https://raw.githubusercontent.com/ShafeequrRehman/arrowup/f9e79ecf5d72afd1ac4c1bac631b5304fbfc4e74/Vector%20(5).svg"style="height: 15px;width: 15px;">
+                        <span style="padding-left: 5px;">+3</span>
+
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Educational Services</td>
+                <td>
+                    <div class="bar-container">
+                        <span style="padding-right: 5px;">5</span>
+                        <img src="https://raw.githubusercontent.com/ShafeequrRehman/downarrow/957863bdaac5ef18c3e709eed58a62681498dca7/Vector%20(6).svg"style="height: 15px;width: 15px;" >
+                        <span style="padding-left: 5px;">-2</span>
+
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Information</td>
+                <td>
+                    <div class="bar-container">
+                        <span style="padding-right: 5px;">6</span>
+                        <img src="https://raw.githubusercontent.com/ShafeequrRehman/arrowup/f9e79ecf5d72afd1ac4c1bac631b5304fbfc4e74/Vector%20(5).svg"style="height: 15px;width: 15px;" >
+                        <span style="padding-left: 5px;">+4</span>
+
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Construction</td>
+                <td>
+                    <div class="bar-container">
+                        <span style="padding-right: 5px;">7</span>
+                        <img src="https://raw.githubusercontent.com/ShafeequrRehman/arrowup/f9e79ecf5d72afd1ac4c1bac631b5304fbfc4e74/Vector%20(5).svg"style="height: 15px;width: 15px;" >
+                        <span style="padding-left: 5px;">+2</span>
+
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Retail Trade</td>
+                <td>
+                    <div class="bar-container">
+                        <span style="padding-right: 5px;">8</span>
+                        <img src="https://raw.githubusercontent.com/ShafeequrRehman/downarrow/957863bdaac5ef18c3e709eed58a62681498dca7/Vector%20(6).svg"style="height: 15px;width: 15px;" >
+                        <span style="padding-left: 5px;">-4</span>
+
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Transporation and Warehousing</td>
+                <td>
+                    <div class="bar-container">
+                        <span style="padding-right: 5px;">9</span>
+                        <img src="https://raw.githubusercontent.com/ShafeequrRehman/arrowup/f9e79ecf5d72afd1ac4c1bac631b5304fbfc4e74/Vector%20(5).svg"style="height: 15px;width: 15px;" >
+                        <span style="padding-left: 5px;">+2</span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Administrative and Support and Waste Managment and Remediation Services</td>
+                <td>
+                    <div class="bar-container">
+                        <span style="padding-right: 5px;">10</span>
+                        <img src="https://raw.githubusercontent.com/ShafeequrRehman/arrowup/f9e79ecf5d72afd1ac4c1bac631b5304fbfc4e74/Vector%20(5).svg"style="height: 15px;width: 15px;" >
+                        <span style="padding-left: 5px;">+2</span>
+
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Wholesale Trade</td>
+                <td>
+                    <div class="bar-container">
+                        <span style="padding-right: 5px;">11</span>
+                        <img src="https://raw.githubusercontent.com/ShafeequrRehman/downarrow/957863bdaac5ef18c3e709eed58a62681498dca7/Vector%20(6).svg"style="height: 15px;width: 15px;" >
+                        <span style="padding-left: 5px;">-5</span>
+
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Public Administration</td>
+                <td>
+                    <div class="bar-container">
+                        <span style="padding-right: 5px;">12</span>
+                        <img src="https://raw.githubusercontent.com/ShafeequrRehman/downarrow/957863bdaac5ef18c3e709eed58a62681498dca7/Vector%20(6).svg"style="height: 15px;width: 15px;" >
+
+                        <span style="padding-left: 5px;">-3</span>
+
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Real Estate Rental and Leasing</td>
+                <td>
+                    <div class="bar-container">
+                        <span style="padding-right: 5px;">13</span>
+                        <img src="https://raw.githubusercontent.com/ShafeequrRehman/double-arrow-red/8d7d70e0e6bb08166eb01790990e08b456759fe1/Vector%20(7).svg"style="height: 25px;width: 25px;" >
+
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Accommodation and Food Services</td>
+                <td>
+                    <div class="bar-container">
+                        <span style="padding-right: 5px;">14</span>
+                        <img src="https://raw.githubusercontent.com/ShafeequrRehman/double-arrow-red/8d7d70e0e6bb08166eb01790990e08b456759fe1/Vector%20(7).svg"style="height: 25px;width: 25px;" >
+
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Art, Entertainment, and Recreation</td>
+                <td>
+                    <div class="bar-container">
+                        <span style="padding-right: 5px;">15</span>
+                        <img src="https://raw.githubusercontent.com/ShafeequrRehman/arrowup/f9e79ecf5d72afd1ac4c1bac631b5304fbfc4e74/Vector%20(5).svg"style="height: 15px;width: 15px;" >
+                        <span style="padding-left: 5px;">+2</span>
+
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Utilities</td>
+                <td>
+                    <div class="bar-container">
+                        <span style="padding-right: 5px;">16</span>
+                        <img src="https://raw.githubusercontent.com/ShafeequrRehman/downarrow/957863bdaac5ef18c3e709eed58a62681498dca7/Vector%20(6).svg"style="height: 15px;width: 15px;" >
+                        <span style="padding-left: 5px;">-1</span>
+
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>Mining</td>
+                <td>
+                    <div class="bar-container">
+                        <span style="padding-right: 5px;">17</span>
+                        <img src="https://raw.githubusercontent.com/ShafeequrRehman/downarrow/957863bdaac5ef18c3e709eed58a62681498dca7/Vector%20(6).svg"style="height: 15px;width: 15px;" >
+
+                        <span style="padding-left: 5px;">-1</span>
+
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Managment of companies and Enterprises</td>
+                <td>
+                    <div class="bar-container">
+                        <span style="padding-right: 5px;">18</span>
+                        <img src="https://raw.githubusercontent.com/ShafeequrRehman/arrowup/f9e79ecf5d72afd1ac4c1bac631b5304fbfc4e74/Vector%20(5).svg"style="height: 15px;width: 15px;" >
+                        <span style="padding-left: 5px;">+1</span>
+
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Agriculture Foresty, Fishing and Hunting</td>
+                <td>
+                    <div class="bar-container">
+                        <span style="padding-right: 5px;">19</span>
+                        <img src="https://raw.githubusercontent.com/ShafeequrRehman/downarrow/957863bdaac5ef18c3e709eed58a62681498dca7/Vector%20(6).svg"style="height: 15px;width: 15px;" >
+                        <span style="padding-left: 5px;">-1</span>
+
+                    </div>
+                </td>
+            </tr>
+           </tr>
+            
+        </tbody>
+    </table>
+
+</body>
+</html>
